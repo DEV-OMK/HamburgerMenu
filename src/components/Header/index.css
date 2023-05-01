@@ -1,0 +1,87 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-responsive-container {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-responsive-container {
+    width: 90%;
+  }
+}
+
+.logo {
+  max-width: 50px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    max-width: 70px;
+  }
+}
+
+.popup-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 5%;
+}
+
+.trigger-button {
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 25px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.close {
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+
+.menu-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.hamberger-menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.link-text {
+  margin: 8px;
+}

@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.not-found-bg-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.responsive-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 75%;
+  }
+}
+
+.not-found-image {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    width: 45%;
+  }
+}
+
+.not-found-title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #616e7c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.not-found-caption {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  color: #616e7c;
+  text-align: center;
+}
